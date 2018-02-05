@@ -6,7 +6,7 @@
 
 Expand an Word
 --------------------------------------------------------------------------------
-Type the word and type '<c-y>;'.
+Type the word and type '&lt;c-y&gt;;'.
 
     div
 
@@ -14,7 +14,7 @@ Type the word and type '<c-y>;'.
 
 Expand an Abbreviation
 --------------------------------------------------------------------------------
-Type the abbreviation as 'div>p#foo$\*3>a' and type '<c-y>,'.
+Type the abbreviation as 'div>p#foo$\*3>a' and type '&lt;c-y&gt;,'.
 
     <div>
         <p id="foo1\"><a href=""></a></p>
@@ -30,7 +30,7 @@ Write as below.
     test2
     test3
 
-Then do visual select (line wise) and type '<c-y>,'.
+Then do visual select (line wise) and type '&lt;c-y&gt;,'.
 Once you get to the "Tag:" prompt, type 'ul>li\*'.
 
     <ul>
@@ -49,11 +49,11 @@ If you type a tag, such as 'blockquote', the you'll see the following:
 
 Go to the Next Edit Point
 --------------------------------------------------------------------------------
-Type '<c-y>n' in insert mode.
+Type '&lt;c-y&gt;n' in insert mode.
 
 Go to the Previous Edit Point
 --------------------------------------------------------------------------------
-Type '<c-y>N' in insert mode.
+Type '&lt;c-y&gt;N' in insert mode.
 
 Toggle Comment
 --------------------------------------------------------------------------------
@@ -63,13 +63,13 @@ Move cursor inside the block
         hello world
     </div>
 
-Type '<c-y>/' insert mode
+Type '&lt;c-y&gt;/' insert mode
 
     <!-- <div>
         hello world
     </div> -->
 
-Type '<c-y>/' in there again.
+Type '&lt;c-y&gt;/' in there again.
 
     <div>
         hello world
