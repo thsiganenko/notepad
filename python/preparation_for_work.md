@@ -12,7 +12,7 @@
 
     $ sudo pip3 install virtualenv virtualenvwrapper
 
-Настраиваем virturalenvwrapper
+Настраиваем virtualenvwrapper
 --------------------------------------------------------------------------------
 Находим место нахождения скрипта virtualenvwrapper.sh
 
